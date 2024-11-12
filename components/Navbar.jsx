@@ -8,7 +8,7 @@ const Navbar = () => {
     <header className="flex py-6 px-10 items-center bg-lightGreen justify-between">
       <div className="flex items-center gap-8">
         <Image src={logo} alt="logo" />
-        <div>
+        <div className="hidden lg:block">
           <ul className="flex gap-4">
             {["Products", "Pricing", "Resources"].map((item, index) => (
               <li
@@ -31,7 +31,7 @@ const Navbar = () => {
         </div>
       </div>
       
-        <div className="flex gap-4 items-center">
+        <div className="gap-4 items-center hidden lg:flex">
           <Image src="./earth.svg" height={24} width={24} alt="earth" />
           <span className="text-[14px] underline-offset-4 underline text-brandGreen cursor-pointer">
             Log in
