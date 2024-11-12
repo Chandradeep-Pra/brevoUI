@@ -19,7 +19,7 @@ const Hero = () => {
             <Image src="/productDemo.jpg" alt='product Image' width={600} height={300}  />
         </div>
     </section>
-    <h1 className='text-center pt-8 text-lg'>Join 500,000+ customers around the world who trust Brevo</h1>
+    <h1 className='text-center pt-8 text-lg md:px-0 px-6'>Join 500,000+ customers around the world who trust Brevo</h1>
     </>
   )
 }
